@@ -47,7 +47,7 @@ Siehe dazu auch den Abschnitt zu Interrupt Service Routinen weiter unten.
 [float]
 == Benutzung von Interrupts
 Interrupts sind nützlich, um bestimmte Tasks in Microkontrollerprogrammen automatisch ablaufen zu lassen und können helfen, Timingprobleme zu lösen.
-Gute Beispiele dafür sind das Lesen eines Drehgebers sowie das Einlesen von Benutzereinaben.
+Gute Beispiele dafür sind das Lesen eines Drehgebers sowie das Einlesen von Benutzereingaben.
 
 Wenn du z.B. sicherstellen willst, dass das Programm alle Stromimpulse eines Drehgebers messen kann, wäre es sehr schwer ein Programm zu schreiben, das
 noch andere Aufgaben zusätzlich erfüllt, weil das Programm sonst immer den Sensor pollen (d.h. permanent abfragen) müsste. Andere Sensoren haben eine
