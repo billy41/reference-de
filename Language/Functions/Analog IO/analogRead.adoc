@@ -17,7 +17,7 @@ D.h. das Board mappt Eingangsspannungen zwischen 0 und 5 V auf Integer-Werte zwi
 Die erreichte Auflösung ist damit z.B. auf einem Arduino UNO 5 V / 1024 Teile oder 0,0049 V (4,9 mV) per Teil.
 Siehe dazu auch die Tabelle unterhalb für die benutzbaren Pins, Betriebsspannung und die maximale Auflösung für einige Arduino-Boards.
 
-Die Eingangsbreite can mit link:../analogreference[analogReference()] geändert werden, die Auflösung mit link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()] (Nur für Arduino Zero, Due und MKR).
+Die Eingangsbreite kann mit link:../analogreference[analogReference()] geändert werden, die Auflösung mit link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()] (Nur für Arduino Zero, Due und MKR).
 
 Auf den ATmega-basierten Boards (UNO, Nano, Mini, Mega), benötigt das Board circa 100 Mikrosekunden (0,0001 s), um einen analogen Inputpin zu lesen. Damit ist die maximale Lesegeschwindigkeit 10000 Lesevorgänge pro Sekunde.
 
